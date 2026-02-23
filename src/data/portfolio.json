@@ -1,0 +1,183 @@
+{
+    "hero": {
+        "name": "Mihai Cosmin Danaila",
+        "pronouns": "He / Him",
+        "role": "Full-Stack Software Developer",
+        "description": "Highly experienced Full-stack software developer with 8+ years in building scalable, high-performance web applications, across academic research (ETH & UZH) and Fintech (PostFinance & UniCredit) environments. Proficient in Python, React, and Java, with expertise in designing microservices, implementing CI/CD pipelines, and working in Agile/Scrum. Passionate in bridging the gap between complex domain requirements and production-ready microservices by developing impactful solutions, optimizing performance, and leveraging AI/ML for innovative applications.",
+        "badges": [
+            "Full-Stack",
+            "Fintech & Academia Research",
+            "FAIR Data"
+        ],
+        "image": "/src/assets/portrait_mihai.png"
+    },
+    "about": {
+        "title": "My Journey",
+        "description": "I was born in Romania and moved to Italy at the age of three. After completing my studies in Computer Science at La Sapienza University in Rome, I began my professional career there. After a short period, I took the opportunity to move to Milan, driven by a long-term goal: reaching Switzerland, a land of opportunity, the place I had always imagined, where the mountains welcome you.\n\nAfter a few years spent developing my skills in the fintech sector in Milan, I eventually moved to Switzerland. There, I discovered a wide range of new opportunities. I started studying German while continuing to work, until I decided to further invest in my education by pursuing a master’s degree.\n\nI first entered academia and then enrolled in the Master’s program in Applied Computational Life Sciences at the ZHAW School of Life Sciences, which I completed part-time while working at the University of Zurich. After finishing my degree, I continued my academic path at ETH Zurich.\n\nWith artificial intelligence evolving rapidly, I am strongly motivated to be part of this technological transformation and to contribute to it in a meaningful way.\n\nOutside of work and coding, I spend time at the gym. I am also a certified personal trainer and enjoy outdoor activities.",
+        "interactiveDescription": "I’m Mihai. I was born in [ROMANIA] but grew up in Italy, moving there at the age of three. My journey into tech began at La Sapienza in [ROME], where I studied Computer Science and took my first steps into the professional world.\n[But] I always had my sights set on the mountains.\nAfter an initial experience in Rome, I moved to [MILAN] to sharpen my skills in the [FINTECH] sector, working on high-impact systems that shaped my engineering mindset. It was a strategic move, a bridge toward my long-term goal: [SWITZERLAND], a place I’ve always associated with growth, opportunity, and innovation.\n[Eventually], the mountains called.\nMoving to Switzerland opened the door to [ACADEMIA]. I balanced my time working at [UZH] while completing a Master’s degree at [ZHAW] in Applied Computational Life Sciences. After graduating, I continued my academic path at [ETH ZURICH], contributing to product development and internal consultancy initiatives.\nToday, with [ARTIFICIAL INTELLIGENCE] redefining the technological landscape, I’m driven to build systems that create meaningful impact.\nWhen I’m not coding, you’ll find me at the [GYM]. As a certified [PERSONAL TRAINER], I value the balance and discipline required to consistently perform at a high level."
+    },
+    "education": {
+        "title": "Education",
+        "items": [
+            {
+                "degree": "Master’s Degree in Applied Computational Life Sciences",
+                "institution": "ZHAW School of Life Sciences",
+                "period": "2021 – 2024",
+                "descriptionStart": "Master's studies focused on ",
+                "highlights": [
+                    "Computational Life Sciences",
+                    "Data Science",
+                    "Machine Learning/Deep Learning"
+                ],
+                "bullets": [
+                    "Thesis: Phylogenetic tree search heuristic optimisation using deep learning methods"
+                ]
+            },
+            {
+                "degree": "Bachelor’s Degree in Computer Science",
+                "institution": "La Sapienza University",
+                "period": "2014 – 2018",
+                "descriptionStart": "Foundational studies in ",
+                "highlights": [
+                    "Computer Science",
+                    "Software Development",
+                    "Database Management"
+                ],
+                "bullets": [
+                    "Experimental thesis: Database systems performance evaluation in a production environment"
+                ]
+            }
+        ]
+    },
+    "skills": {
+        "title": "Core Skills",
+        "technical": {
+            "title": "Technical Skills",
+            "items": [
+                {
+                    "name": "React / Redux / TypeScript",
+                    "level": 90
+                },
+                {
+                    "name": "Python (Flask, Django)",
+                    "level": 95
+                },
+                {
+                    "name": "Java (Spring Boot)",
+                    "level": 85
+                },
+                {
+                    "name": "Cloud (AWS) & Docker/K8s",
+                    "level": 90
+                },
+                {
+                    "name": "AI & Data (LangChain, Machine Learning)",
+                    "level": 80
+                }
+            ]
+        },
+        "soft": {
+            "title": "Soft Skills",
+            "items": [
+                "Agile Methodology",
+                "CI/CD Pipelines",
+                "Microservices Architecture",
+                "Problem Solving",
+                "Cross-functional Collaboration",
+                "Test Automation"
+            ]
+        }
+    },
+    "career": {
+        "title": "Career Journey",
+        "subtitle": "8+ years building scalable software across academia and fintech",
+        "events": [
+            {
+                "year": "09/2023 – Present",
+                "title": "Application Software Developer",
+                "subtitle": "ETH Zurich",
+                "description": "Developed openBIS scientific data management platform deployed via Docker across 300+ global installations. Designed an AI-powered chatbot utilizing RAG, LangChain, and ChromaDB. Architected a metadata-driven dynamic form engine and robust data pipelines.",
+                "icon": "Layers"
+            },
+            {
+                "year": "10/2020 – 08/2023",
+                "title": "Lead Frontend / Scientific Software Developer",
+                "subtitle": "University of Zurich",
+                "description": "Technical Lead for the Microbe Atlas Project (MAP) 2.0. Architected migration to a microservices system using React and Python/Flask. Designed scalable data pipelines and established CI/CD with Docker and Jenkins.",
+                "icon": "Briefcase"
+            },
+            {
+                "year": "04/2020 – 10/2020",
+                "title": "IT Consultant",
+                "subtitle": "PostFinance AG",
+                "description": "Developed CPLKU mission-critical compliance platform. Designed business processes using BPMN 2.0 via Camunda integrated with Java 11 (Spring Boot) backend and Angular frontend.",
+                "icon": "Users"
+            },
+            {
+                "year": "10/2019 – 03/2020",
+                "title": "Software Engineer",
+                "subtitle": "Business Solution Group",
+                "description": "Architected AWS-native recruitment platform. Implemented secure auth leveraging AWS Cognito, Lambda, API Gateway. Integrated OAuth and SAML-based SSO with Office 365.",
+                "icon": "Globe"
+            },
+            {
+                "year": "06/2018 – 09/2019",
+                "title": "IT Consultant",
+                "subtitle": "UBIS (UniCredit Group)",
+                "description": "Developed and maintained a proprietary CRM platform on JBoss. Implemented Role-Based Access Control using IAM and Oracle Virtual Private Database. Performed advanced database modeling.",
+                "icon": "Award"
+            },
+            {
+                "year": "01/2018 – 06/2018",
+                "title": "Full-Stack Developer",
+                "subtitle": "I-Seed",
+                "description": "Developed a blockchain-based Initial Coin Offering (ICO) ecosystem. Implemented security using Spring Security, OAuth2, JWT. Web3 integration with MetaMask for Ethereum transactions.",
+                "icon": "Briefcase"
+            },
+            {
+                "year": "04/2017 – 12/2017",
+                "title": "Junior Developer",
+                "subtitle": "NS12",
+                "description": "Contributed to CEANT 2.0, a national-level Antimafia Certification Database. Created tools for high-volume document management and dynamic search interfaces using AJAX and jQuery.",
+                "icon": "Award"
+            }
+        ]
+    },
+    "projects": {
+        "title": "Projects",
+        "items": [
+            {
+                "id": 1,
+                "title": "openBIS Scientific Data Platform",
+                "subtitle": "Large-scale data management platform deployed across 300+ global installations for 1000+ researchers at ETH Zurich.",
+                "date": "2023 - Present",
+                "link": "TODO: Add project link here (e.g. openbis.ch)",
+                "image": "TODO: Add path to an image for openBIS (e.g. /src/assets/openbis.png)"
+            },
+            {
+                "id": 2,
+                "title": "AI-Powered RAG Chatbot",
+                "subtitle": "Intelligent user support bot utilizing Retrieval-Augmented Generation, LangChain, and ChromaDB for internal documentation.",
+                "date": "2023",
+                "link": "TODO: Add link if public",
+                "image": "TODO: Add path to an image here"
+            },
+            {
+                "id": 3,
+                "title": "Microbe Atlas Project (MAP) 2.0",
+                "subtitle": "Microservices-based platform to support intensive biological data analysis, built with React and Python/Flask.",
+                "date": "2020 - 2023",
+                "link": "TODO: Add MAP link",
+                "image": "TODO: Add path to an image for MAP"
+            },
+            {
+                "id": 4,
+                "title": "Blockchain ICO Ecosystem",
+                "subtitle": "Launchpad and Administrative Dashboard with Spring Security, JWT, and Web3 MetaMask integration.",
+                "date": "2018",
+                "link": "TODO: Add link",
+                "image": "TODO: Add path to an image here"
+            }
+        ]
+    }
+}
