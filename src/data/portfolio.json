@@ -51,42 +51,125 @@
     },
     "skills": {
         "title": "Core Skills",
-        "technical": {
-            "title": "Technical Skills",
-            "items": [
-                {
-                    "name": "React / Redux / TypeScript",
-                    "level": 90
-                },
-                {
-                    "name": "Python (Flask, Django)",
-                    "level": 95
-                },
-                {
-                    "name": "Java (Spring Boot)",
-                    "level": 85
-                },
-                {
-                    "name": "Cloud (AWS) & Docker/K8s",
-                    "level": 90
-                },
-                {
-                    "name": "AI & Data (LangChain, Machine Learning)",
-                    "level": 80
-                }
-            ]
-        },
-        "soft": {
-            "title": "Soft Skills",
-            "items": [
-                "Agile Methodology",
-                "CI/CD Pipelines",
-                "Microservices Architecture",
-                "Problem Solving",
-                "Cross-functional Collaboration",
-                "Test Automation"
-            ]
-        }
+        "categories": [
+            {
+                "title": "Frontend",
+                "items": [
+                    {
+                        "name": "React",
+                        "icon": "https://cdn.simpleicons.org/react/61DAFB"
+                    },
+                    {
+                        "name": "Redux",
+                        "icon": "https://cdn.simpleicons.org/redux/764ABC"
+                    },
+                    {
+                        "name": "TypeScript",
+                        "icon": "https://cdn.simpleicons.org/typescript/3178C6"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "icon": "https://cdn.simpleicons.org/tailwindcss/06B6D4"
+                    },
+                    {
+                        "name": "HTML5",
+                        "icon": "https://cdn.simpleicons.org/html5/E34F26"
+                    },
+                    {
+                        "name": "CSS3",
+                        "icon": "https://cdn.simpleicons.org/css3/1572B6"
+                    }
+                ]
+            },
+            {
+                "title": "Backend",
+                "items": [
+                    {
+                        "name": "Python",
+                        "icon": "https://cdn.simpleicons.org/python/3776AB"
+                    },
+                    {
+                        "name": "Flask",
+                        "icon": "https://cdn.simpleicons.org/flask/white"
+                    },
+                    {
+                        "name": "Django",
+                        "icon": "https://cdn.simpleicons.org/django/092E20"
+                    },
+                    {
+                        "name": "Java",
+                        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                    },
+                    {
+                        "name": "Spring Boot",
+                        "icon": "https://cdn.simpleicons.org/springboot/6DB33F"
+                    }
+                ]
+            },
+            {
+                "title": "Database",
+                "items": [
+                    {
+                        "name": "PostgreSQL",
+                        "icon": "https://cdn.simpleicons.org/postgresql/4169E1"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "icon": "https://cdn.simpleicons.org/mongodb/47A248"
+                    },
+                    {
+                        "name": "ChromaDB",
+                        "icon": "https://cdn.simpleicons.org/chroma/white"
+                    },
+                    {
+                        "name": "Oracle DB",
+                        "icon": "https://cdn.simpleicons.org/oracle/F80000"
+                    }
+                ]
+            },
+            {
+                "title": "Cloud & Tools",
+                "items": [
+                    {
+                        "name": "AWS",
+                        "icon": "https://cdn.simpleicons.org/amazonaws/232F3E"
+                    },
+                    {
+                        "name": "Docker",
+                        "icon": "https://cdn.simpleicons.org/docker/2496ED"
+                    },
+                    {
+                        "name": "Kubernetes",
+                        "icon": "https://cdn.simpleicons.org/kubernetes/326CE5"
+                    },
+                    {
+                        "name": "Git",
+                        "icon": "https://cdn.simpleicons.org/git/F05032"
+                    },
+                    {
+                        "name": "GitHub",
+                        "icon": "https://cdn.simpleicons.org/github/white"
+                    }
+                ]
+            },
+            {
+                "title": "AI & Data",
+                "items": [
+                    {
+                        "name": "LangChain",
+                        "icon": "https://cdn.simpleicons.org/langchain/white"
+                    },
+                    {
+                        "name": "Machine Learning",
+                        "icon": "https://cdn.simpleicons.org/tensorflow/FF6F00"
+                    },
+                    {
+                        "name": "RAG",
+                        "icon": "https://cdn.simpleicons.org/openai/white"
+                    }
+                ]
+            }
+        ]
     },
     "career": {
         "title": "Career Journey",
@@ -97,49 +180,87 @@
                 "title": "Application Software Developer",
                 "subtitle": "ETH Zurich",
                 "description": "Developed openBIS scientific data management platform deployed via Docker across 300+ global installations. Designed an AI-powered chatbot utilizing RAG, LangChain, and ChromaDB. Architected a metadata-driven dynamic form engine and robust data pipelines.",
-                "icon": "Layers"
+                "icon": "Layers",
+                "skills": [
+                    "Python",
+                    "React",
+                    "Docker",
+                    "PostgreSQL",
+                    "LangChain",
+                    "ChromaDB",
+                    "RAG"
+                ]
             },
             {
                 "year": "10/2020 – 08/2023",
                 "title": "Lead Frontend / Scientific Software Developer",
                 "subtitle": "University of Zurich",
                 "description": "Technical Lead for the Microbe Atlas Project (MAP) 2.0. Architected migration to a microservices system using React and Python/Flask. Designed scalable data pipelines and established CI/CD with Docker and Jenkins.",
-                "icon": "Briefcase"
+                "icon": "Briefcase",
+                "skills": [
+                    "React",
+                    "Python",
+                    "Flask",
+                    "Docker",
+                    "Git"
+                ]
             },
             {
                 "year": "04/2020 – 10/2020",
                 "title": "IT Consultant",
                 "subtitle": "PostFinance AG",
                 "description": "Developed CPLKU mission-critical compliance platform. Designed business processes using BPMN 2.0 via Camunda integrated with Java 11 (Spring Boot) backend and Angular frontend.",
-                "icon": "Users"
+                "icon": "Users",
+                "skills": [
+                    "Java",
+                    "Spring Boot"
+                ]
             },
             {
                 "year": "10/2019 – 03/2020",
                 "title": "Software Engineer",
                 "subtitle": "Business Solution Group",
                 "description": "Architected AWS-native recruitment platform. Implemented secure auth leveraging AWS Cognito, Lambda, API Gateway. Integrated OAuth and SAML-based SSO with Office 365.",
-                "icon": "Globe"
+                "icon": "Globe",
+                "skills": [
+                    "AWS",
+                    "Python",
+                    "React"
+                ]
             },
             {
                 "year": "06/2018 – 09/2019",
                 "title": "IT Consultant",
                 "subtitle": "UBIS (UniCredit Group)",
                 "description": "Developed and maintained a proprietary CRM platform on JBoss. Implemented Role-Based Access Control using IAM and Oracle Virtual Private Database. Performed advanced database modeling.",
-                "icon": "Award"
+                "icon": "Award",
+                "skills": [
+                    "Java",
+                    "Oracle DB"
+                ]
             },
             {
                 "year": "01/2018 – 06/2018",
                 "title": "Full-Stack Developer",
                 "subtitle": "I-Seed",
                 "description": "Developed a blockchain-based Initial Coin Offering (ICO) ecosystem. Implemented security using Spring Security, OAuth2, JWT. Web3 integration with MetaMask for Ethereum transactions.",
-                "icon": "Briefcase"
+                "icon": "Briefcase",
+                "skills": [
+                    "Java",
+                    "Spring Boot"
+                ]
             },
             {
                 "year": "04/2017 – 12/2017",
                 "title": "Junior Developer",
                 "subtitle": "NS12",
                 "description": "Contributed to CEANT 2.0, a national-level Antimafia Certification Database. Created tools for high-volume document management and dynamic search interfaces using AJAX and jQuery.",
-                "icon": "Award"
+                "icon": "Award",
+                "skills": [
+                    "Java",
+                    "HTML5",
+                    "CSS3"
+                ]
             }
         ]
     },
