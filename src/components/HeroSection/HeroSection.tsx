@@ -105,7 +105,7 @@ export const HeroSection = () => {
       >
         <div className="w-64 h-64 rounded-full overflow-hidden shadow-lg">
           <img
-            src={hero.image}
+            src={`${import.meta.env.BASE_URL}${hero.image}`}
             alt={hero.name}
             className="w-full h-full object-cover"
           />
