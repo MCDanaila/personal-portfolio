@@ -271,33 +271,62 @@
                 "id": 1,
                 "title": "openBIS Scientific Data Platform",
                 "subtitle": "Large-scale data management platform deployed across 300+ global installations for 1000+ researchers at ETH Zurich.",
+                "brand": "ETH Zurich",
                 "date": "2023 - Present",
-                "link": "TODO: Add project link here (e.g. openbis.ch)",
-                "image": "TODO: Add path to an image for openBIS (e.g. /src/assets/openbis.png)"
+                "link": "#",
+                "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+                "skills": [
+                    "Python",
+                    "React",
+                    "Docker",
+                    "PostgreSQL",
+                    "LangChain"
+                ]
             },
             {
                 "id": 2,
                 "title": "AI-Powered RAG Chatbot",
                 "subtitle": "Intelligent user support bot utilizing Retrieval-Augmented Generation, LangChain, and ChromaDB for internal documentation.",
+                "brand": "ETH Zurich (Internal)",
                 "date": "2023",
-                "link": "TODO: Add link if public",
-                "image": "TODO: Add path to an image here"
+                "link": "#",
+                "imageUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop",
+                "skills": [
+                    "Python",
+                    "LangChain",
+                    "ChromaDB",
+                    "RAG"
+                ]
             },
             {
                 "id": 3,
                 "title": "Microbe Atlas Project (MAP) 2.0",
                 "subtitle": "Microservices-based platform to support intensive biological data analysis, built with React and Python/Flask.",
+                "brand": "University of Zurich",
                 "date": "2020 - 2023",
-                "link": "TODO: Add MAP link",
-                "image": "TODO: Add path to an image for MAP"
+                "link": "#",
+                "imageUrl": "https://images.unsplash.com/photo-1530213786676-412f6ab5311a?q=80&w=2000&auto=format&fit=crop",
+                "skills": [
+                    "React",
+                    "Python",
+                    "Flask",
+                    "Docker"
+                ]
             },
             {
                 "id": 4,
                 "title": "Blockchain ICO Ecosystem",
                 "subtitle": "Launchpad and Administrative Dashboard with Spring Security, JWT, and Web3 MetaMask integration.",
+                "brand": "I-Seed",
                 "date": "2018",
-                "link": "TODO: Add link",
-                "image": "TODO: Add path to an image here"
+                "link": "#",
+                "imageUrl": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?q=80&w=2000&auto=format&fit=crop",
+                "skills": [
+                    "Java",
+                    "Spring Boot",
+                    "HTML5",
+                    "CSS3"
+                ]
             }
         ]
     }
