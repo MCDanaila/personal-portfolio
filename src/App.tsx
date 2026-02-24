@@ -7,7 +7,7 @@ import StripedBackground from "./components/lightswind/StripedBackground";
 import { AboutSection } from "./components/AboutSection/AboutSection";
 import { ProjectsSection } from "./components/ProjectsSection/ProjectsSection";
 import { EducationSection } from "./components/EducationSection/EducationSection";
-import { CareerTimeline } from "./components/CareerSection/CareerTimeline";
+import { CareerSection } from "./components/CareerSection/CareerSection";
 import ReactLenis from "lenis/react";
 import Dock from "./components/lightswind/dock";
 import {
@@ -104,7 +104,7 @@ function App() {
               <EducationSection />
             </div>
             <div id="career">
-              <CareerTimeline />
+              <CareerSection />
             </div>
             <div id="projects">
               <ProjectsSection />
